@@ -1356,6 +1356,15 @@
 
 "@tensorflow-models/blazeface@link:../dist":
   version "0.0.0"
+  uid ""
+
+"@tensorflow/tfjs-backend-cpu@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-3.11.0.tgz#01d5d68b91faf12bee4854adae56bc956b794f1a"
+  integrity sha512-ShLkrZ4/rmhZwzGKenMFDfQnaEbyZgWA5F8JRa52Iob/vptlZeuOzjq87CZKmZMUmDswR9A2kjzovT/H1bJdWQ==
+  dependencies:
+    "@types/seedrandom" "2.4.27"
+    seedrandom "2.4.3"
 
 "@tensorflow/tfjs-backend-cpu@3.3.0":
   version "3.3.0"
@@ -1365,12 +1374,12 @@
     "@types/seedrandom" "2.4.27"
     seedrandom "2.4.3"
 
-"@tensorflow/tfjs-backend-wasm@^3.1.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-wasm/-/tfjs-backend-wasm-3.3.0.tgz#893d2b427ce580e06ec551373b9f63c7ab01443e"
-  integrity sha512-1mU3+GuCc0tPzG65qIVwlJoIOyOOvVVkNl1NsId7PTt/PwE/QwiofsCmfPDqH47rTMxBzhvnHZTi+Nj9VBaz1g==
+"@tensorflow/tfjs-backend-wasm@^3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-wasm/-/tfjs-backend-wasm-3.11.0.tgz#cd74d124648c16d094aa983180385ef9f21797a5"
+  integrity sha512-49+MSIa/tOelbr4J0Q+ZMuDGQiAaenUsy9exfaQvEo/FzjV+aitVB7r9IojLCxyB4cfAtqKUGHwmRoreJnN7jw==
   dependencies:
-    "@tensorflow/tfjs-backend-cpu" "3.3.0"
+    "@tensorflow/tfjs-backend-cpu" "3.11.0"
     "@types/emscripten" "~0.0.34"
 
 "@tensorflow/tfjs-backend-webgl@^3.1.0":
