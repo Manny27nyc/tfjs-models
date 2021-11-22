@@ -1356,6 +1356,7 @@
 
 "@tensorflow-models/blazeface@link:../dist":
   version "0.0.0"
+  uid ""
 
 "@tensorflow/tfjs-backend-cpu@3.3.0":
   version "3.3.0"
@@ -1390,14 +1391,16 @@
   resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-3.3.0.tgz#d9f2ffd0fbdbb47c07d5fd7c3e5dc180cff317aa"
   integrity sha512-k57wN4yelePhmO9orcT/wzGMIuyedrMpVtg0FhxpV6BQu0+TZ/ti3W4Kb97GWJsoHKXMoing9SnioKfVnBW6hw==
 
-"@tensorflow/tfjs-core@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-3.1.0.tgz#63884b124b38f8b2c00b8b4f88e36d3de7f07963"
-  integrity sha512-KGSJEB6CTIk5YVgKbdpW0nAKuNtWaMdqYSrNYX43IAGdNrH0vDsipACH/bhrQyo9/NYiK/4Jbkr4k9pGwwiPJQ==
+"@tensorflow/tfjs-core@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-3.11.0.tgz#1e3986533faaed922bbfc2fe86da506d0e9e5c79"
+  integrity sha512-JOp+1+LCd0Xg3hu7fu6iQPWZnN8Hc6ssfP7B+625XH5GYY1/OhVASa7Ahe2mJr9gZovY2lw8FUejLh1jMmBb1Q==
   dependencies:
+    "@types/long" "^4.0.1"
     "@types/offscreencanvas" "~2019.3.0"
     "@types/seedrandom" "2.4.27"
     "@types/webgl-ext" "0.0.30"
+    long "4.0.0"
     node-fetch "~2.6.1"
     seedrandom "2.4.3"
 
@@ -1405,6 +1408,11 @@
   version "0.0.34"
   resolved "https://registry.yarnpkg.com/@types/emscripten/-/emscripten-0.0.34.tgz#12b4a344274fb102ff2f6c877b37587bc3e46008"
   integrity sha512-QSb9ojDincskc+uKMI0KXp8e1NALFINCrMlp8VGKGcTSxeEyRTTKyjWw75NYrCZHUsVEEEpr1tYHpbtaC++/sQ==
+
+"@types/long@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
+  integrity sha512-5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==
 
 "@types/offscreencanvas@~2019.3.0":
   version "2019.3.0"
@@ -4579,6 +4587,11 @@ log-symbols@^2.2.0:
   integrity sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
   dependencies:
     chalk "^2.0.1"
+
+long@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
+  integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
 loose-envify@^1.0.0:
   version "1.4.0"
